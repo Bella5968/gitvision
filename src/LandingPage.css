@@ -1,0 +1,40 @@
+/* General styles for the landing page */
+.landing-page {
+  text-align: center;
+  color: white;
+  background-color: #0d1117; /* GitHub dark theme */
+  padding: 20px;
+}
+
+/* Cover image styles */
+.cover-image img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 400px; /* Limit the maximum height */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-bottom: 20px;
+}
+
+/* Landing content styles */
+.landing-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #58a6ff; /* GitHub blue */
+}
+
+.landing-content p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.landing-content .description {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #ccc; /* Slightly lighter color for readability */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -124,3 +124,23 @@ footer {
   padding: 10px;  
   margin-top: 20px; /* Add space above the footer */  
 }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
